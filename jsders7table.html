@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="jsders7table.css">
+</head>
+
+<body>
+
+    <div class="divim">
+        <!-- <input type="search" placeholder="search" class="axtar"> -->
+        <input type="search" class="axtar" value="" placeholder="Axtar" />
+
+        <button class="add">Add</button>
+<div class="filter">
+    Ilk  <select class="selectNum" >
+        <option disabled selected></option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    musterini goster
+</div>
+        <table>
+            <thead class="tblhead">
+                <tr>
+                    <th></th>
+                    <th>No</th>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Position</th>
+                    <th>City</th>
+                    <th>Salary/$</th>
+                    <th>Edit/Remove</th>
+                </tr>
+            </thead>
+            <tbody class="tblbody">
+                <tr>
+                    <td><input type="checkbox" class="tik"></td>
+                    <td>1</td>
+                    <td>Nermin</td>
+                    <td>Eliyeva</td>
+                    <td>Developer</td>
+                    <td>London</td>
+                    <td>2000</td>
+                    <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="tik"></td>
+                    <td>2</td>
+                    <td>Emrah</td> 
+                    <td>Eliyev</td>
+                    <td>Backend developer</td>
+                    <td>Baku</td>
+                    <td>7000</td>
+                    <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="tik"></td>
+                    <td>3</td>
+                    <td>Gulnar</td>
+                    <td>Ehmedova</td>
+                    <td>Menecer</td>
+                    <td>Istanbul</td>
+                    <td>6000</td>
+                    <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="tik"></td>
+                    <td>4</td>
+                    <td>Zumrud</td>
+                    <td>Mehtizade</td>
+                    <td>Developer</td>
+                    <td>Berlin</td>
+                    <td>5000</td>
+                    <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="secilenSil">Secilenleri sil</button>
+        <div class="divtotal">Total: <span>0</span>$ </div>
+    </div>
+
+    <div class="divqara">
+        <div class="divinput">
+            <button class="x">X</button>
+            <input type="text" placeholder="First name" class="inp">
+            <input type="text" placeholder="Last name" class="inp">
+            <input type="text" placeholder="Position" class="inp">
+            <select class="selectVal">
+                <option disabled selected>City</option>
+                <option>Baku</option>
+                <option>Istanbul</option>
+                <option>Moskva</option>
+                <option>London</option>
+                <option>Berlin</option>
+            </select>
+            <input type="text" placeholder="Salary" class="inp">
+            <button class="creat">Creat</button>
+            <button class="edit">Edit</button>
+        </div>
+    </div>
+
+    <div class="divqara2">
+        <div class="divsorgu">
+        <p>Silmek istediyinize eminsiniz?</p> 
+        <button class="he">Beli</button>
+        <button class="yox">Xeyr</button>
+    </div>
+    </div>
+
+    <script src="jsders7table.js"></script>
+</body>
+
+</html>
